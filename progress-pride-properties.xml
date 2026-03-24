@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE wallpapers SYSTEM "gnome-wp-list.dtd">
+<wallpapers>
+  <wallpaper deleted="false">
+    <name>Progress Pride (Dynamic)</name>
+    <filename>/home/abyrne/.local/share/backgrounds/progress-pride-dynamic.xml</filename>
+    <options>spanned</options>
+    <shade_type>solid</shade_type>
+    <pcolor>#e7e2db</pcolor>
+    <scolor>#000000</scolor>
+  </wallpaper>
+</wallpapers>
