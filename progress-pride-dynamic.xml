@@ -1,0 +1,69 @@
+<background>
+  <starttime>
+    <year>2025</year>
+    <month>1</month>
+    <day>1</day>
+    <hour>0</hour>
+    <minute>0</minute>
+    <second>0</second>
+  </starttime>
+
+  <!-- Night: 00:00 - 05:00 (5 hours) -->
+  <static>
+    <duration>18000.0</duration>
+    <file>/home/abyrne/Downloads/lgbtq-rainbow-pride-vector-background/progress-pride-night.svg</file>
+  </static>
+
+  <!-- Night -> Morning: 05:00 - 06:00 (1 hour) -->
+  <transition type="overlay">
+    <duration>3600.0</duration>
+    <from>/home/abyrne/Downloads/lgbtq-rainbow-pride-vector-background/progress-pride-night.svg</from>
+    <to>/home/abyrne/Downloads/lgbtq-rainbow-pride-vector-background/progress-pride-morning.svg</to>
+  </transition>
+
+  <!-- Morning: 06:00 - 09:00 (3 hours) -->
+  <static>
+    <duration>10800.0</duration>
+    <file>/home/abyrne/Downloads/lgbtq-rainbow-pride-vector-background/progress-pride-morning.svg</file>
+  </static>
+
+  <!-- Morning -> Midday: 09:00 - 10:00 (1 hour) -->
+  <transition type="overlay">
+    <duration>3600.0</duration>
+    <from>/home/abyrne/Downloads/lgbtq-rainbow-pride-vector-background/progress-pride-morning.svg</from>
+    <to>/home/abyrne/Downloads/lgbtq-rainbow-pride-vector-background/progress-pride-midday.svg</to>
+  </transition>
+
+  <!-- Midday: 10:00 - 17:00 (7 hours) -->
+  <static>
+    <duration>25200.0</duration>
+    <file>/home/abyrne/Downloads/lgbtq-rainbow-pride-vector-background/progress-pride-midday.svg</file>
+  </static>
+
+  <!-- Midday -> Evening: 17:00 - 18:00 (1 hour) -->
+  <transition type="overlay">
+    <duration>3600.0</duration>
+    <from>/home/abyrne/Downloads/lgbtq-rainbow-pride-vector-background/progress-pride-midday.svg</from>
+    <to>/home/abyrne/Downloads/lgbtq-rainbow-pride-vector-background/progress-pride-evening.svg</to>
+  </transition>
+
+  <!-- Evening: 18:00 - 21:00 (3 hours) -->
+  <static>
+    <duration>10800.0</duration>
+    <file>/home/abyrne/Downloads/lgbtq-rainbow-pride-vector-background/progress-pride-evening.svg</file>
+  </static>
+
+  <!-- Evening -> Night: 21:00 - 22:00 (1 hour) -->
+  <transition type="overlay">
+    <duration>3600.0</duration>
+    <from>/home/abyrne/Downloads/lgbtq-rainbow-pride-vector-background/progress-pride-evening.svg</from>
+    <to>/home/abyrne/Downloads/lgbtq-rainbow-pride-vector-background/progress-pride-night.svg</to>
+  </transition>
+
+  <!-- Night: 22:00 - 00:00 (2 hours) -->
+  <static>
+    <duration>7200.0</duration>
+    <file>/home/abyrne/Downloads/lgbtq-rainbow-pride-vector-background/progress-pride-night.svg</file>
+  </static>
+
+</background>
